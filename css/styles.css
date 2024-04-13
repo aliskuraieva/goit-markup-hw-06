@@ -1,12 +1,23 @@
 ul,
 ol {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+.menu-link:hover {
+  color: #404bbf;
 }
