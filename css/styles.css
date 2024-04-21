@@ -65,6 +65,9 @@ body {
 }
 /*  ========== HEADER STYLES  ========== */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header-container {
   display: flex;
   justify-content: space-between;
@@ -72,20 +75,25 @@ body {
 
 .page-nav {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 
 .menu {
   display: flex;
-  column-gap: 40px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .address-list {
   display: flex;
-  column-gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.address-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .page-logo {
@@ -96,6 +104,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .page-logo-part {
