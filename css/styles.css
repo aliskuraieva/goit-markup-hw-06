@@ -250,8 +250,8 @@ address {
   width: calc((100% - 24px * 3) / 4);
 }
 
-.section-list-img {
-  margin-bottom: 32px;
+.our-team-info-container {
+  padding: 32px 16px;
 }
 
 .section-list-title {
@@ -271,7 +271,6 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 /* ========== OUR PORTFOLIO STYLES ========== */
