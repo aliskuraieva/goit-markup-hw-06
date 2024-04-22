@@ -239,7 +239,7 @@ address {
 
 .section-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .section-list-item {
