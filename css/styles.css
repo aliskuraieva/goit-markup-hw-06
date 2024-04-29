@@ -393,7 +393,7 @@ address {
 .our-portfolio-overlay-text {
   background-color: #4d5ae5;
   letter-spacing: 0.02em;
-
+  line-height: 1.5;
   color: #f4f4fd;
   padding: 40px 32px;
   width: 360px;
