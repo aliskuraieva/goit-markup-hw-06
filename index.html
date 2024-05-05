@@ -530,8 +530,49 @@
       </div>
     </footer>
     <!-- ========== BACKDROP ========== -->
-    <div class="backdrop">
-      <div class="modal"></div>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <div class="modal-form-field-wrapper">
+            <label for="" class="modal-form-field-label">Name</label>
+            <input type="text" class="modal-form-input" />
+          </div>
+          <div class="modal-form-field-wrapper">
+            <label for="" class="modal-form-field-label">Phone</label>
+            <input type="text" class="modal-form-input" />
+          </div>
+          <div class="modal-form-field-wrapper">
+            <label for="" class="modal-form-field-label">Email</label>
+            <input type="text" class="modal-form-input" />
+          </div>
+          <div class="modal-form-field-wrapper">
+            <label for="" class="modal-form-field-label">Comment</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="modal-form-comment"
+            ></textarea>
+          </div>
+          <div class="modal-form-checkbox-wrapper">
+            <input type="checkbox" class="modal-form-checkbox" />
+            <label for="" class="modal-form-checkbox-label"
+              >I accept the terms and conditions of the
+              <a href="" class="privacy-policy">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-form-submit" type="submit">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
