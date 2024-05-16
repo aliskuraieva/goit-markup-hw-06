@@ -700,11 +700,6 @@ body {
     justify-content: center;
   }
 
-  .section-list-item {
-    width: calc((100% - 24px) / 2);
-  }
-}
-
 @media screen and (min-width: 1158px) {
   .our-team {
     padding-top: 120px;
@@ -1009,6 +1004,8 @@ body {
 @media screen and (min-width: 768px) {
   .page-footer-container {
     flex-direction: row;
+    justify-content: left;
+    padding-left: 108px;
     gap: 24px;
     row-gap: 72px;
   }
@@ -1033,10 +1030,29 @@ body {
 
 .page-footer-form-container {
   align-items: baseline;
-
 }
 
 }
 
 @media screen and (min-width: 1158px) {
+  .page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+
+  .page-footer-container {
+    flex-direction: row;
+    padding-left: 16px;
+    gap: 0;
+    row-gap: 0;
+  }
+
+  .page-footer-logo-container {
+    margin-right: 120px;
+  }
+
+  .page-footer-social-container {
+    margin-right: 80px;
+  }
 }
