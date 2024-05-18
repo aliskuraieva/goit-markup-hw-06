@@ -117,7 +117,6 @@ body {
 
 /*  ========== MOBILE MENU STYLES  ========== */
 
-@media screen and (max-width: 767px) {
   .mobile-open-btn {
     line-height: 0;
     border: none;
@@ -277,7 +276,6 @@ body {
   .mobile-menu-social-link:focus .mobile-menu-social-icons {
     background-color: #31d0aa;
   }
-}
 
 @media screen and (min-width: 768px) {
   .mobile-open-btn {
@@ -699,7 +697,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
-
+}
 @media screen and (min-width: 1158px) {
   .our-team {
     padding-top: 120px;
